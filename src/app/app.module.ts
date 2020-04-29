@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TestinputComponent } from './testinput/testinput.component';
+import { NgxRouteParamsInputModule } from 'ngx-route-params-input';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestinputComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxRouteParamsInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
